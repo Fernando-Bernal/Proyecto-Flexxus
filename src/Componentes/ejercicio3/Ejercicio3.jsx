@@ -27,7 +27,7 @@ function ejercicio3(){
  const nuevoAlumno = new Alumno(nombreAlumno, edadAlumno)
 return(
  <div>
-  <h1>{nuevoAlumno.renombre()}</h1>
+  <h4>{nuevoAlumno.renombre()}</h4>
   <p>{nuevoAlumno.años()}</p>
   <p>{nuevoAlumno.mayor()}</p>
   <div className="form_button-home">
