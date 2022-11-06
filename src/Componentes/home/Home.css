@@ -1,0 +1,14 @@
+*{
+    background-color: rgba(234, 245, 245, 0.987);
+}
+
+h2{
+    text-align: center;
+    background-color: rgba(227, 106, 70, 0.359);
+    padding-top: 0 
+}
+
+li{
+    text-align: start;
+    margin-top: 20px;
+}
