@@ -1,14 +1,14 @@
-*{
-    background-color: rgba(234, 245, 245, 0.987);
+* {
+	background-color: rgba(234, 245, 245, 0.987);
 }
 
-h2{
-    text-align: center;
-    background-color: rgba(195, 113, 6, 0.359);
-    padding-top: 0 
+h2 {
+	text-align: center;
+	background-color: rgba(195, 113, 6, 0.359);
+	padding-top: 0;
 }
 
-li{
-    text-align: start;
-    margin-top: 20px;
+li {
+	text-align: start;
+	margin-top: 20px;
 }
