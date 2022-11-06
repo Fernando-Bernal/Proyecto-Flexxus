@@ -1,8 +1,7 @@
 import './Ejercicio6.css';
 import {useEffect, useState} from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
-import { faSearch } from '@fortawesome/free-solid-svg-icons';
+import {Link} from 'react-router-dom'
 
 const data = [
   {id: 1, Codigo: 1, Producto: "Monitor LG", Descripcion:"MONITOR 24P LG LED 24MP400 HDMI Colores auténticos desde cualquier ángulo. El panel IPS de LG ofrece colores más claros y más auténticos. El tiempo de respuesta se ha reducido, la reproducción del color ha mejorado y los usuarios pueden ver la pantalla desde prácticamente cualquier ángulo."},
@@ -76,6 +75,10 @@ componentes y uso de hooks.
           </tbody>
         </table>
       </div>
+      <div className="form_button-home">
+                <Link to= '/' ><button class="btn">Volver al Home</button> 
+                </Link>
+            </div>
     </div>
   );
 }

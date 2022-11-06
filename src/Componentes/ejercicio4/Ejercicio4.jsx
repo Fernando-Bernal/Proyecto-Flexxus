@@ -1,3 +1,4 @@
+import {Link} from 'react-router-dom'
 function ejercicio4(){
 
     const x = ["n", "bro", "c", "|"];
@@ -15,8 +16,12 @@ function ejercicio4(){
 
             </div>
             <div>
-                <p>Resuldado:</p>
+                <p>Resultado:</p>
                 {resultado}
+            </div>
+            <div className="form_button-home">
+                <Link to= '/' ><button class="btn">Volver al Home</button> 
+                </Link>
             </div>
         </div>
     )

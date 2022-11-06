@@ -1,3 +1,4 @@
+import {Link} from 'react-router-dom'
 class Alumno{
     constructor(nombre, edad){
         this.nombre = nombre;
@@ -29,7 +30,10 @@ return(
   <h1>{nuevoAlumno.renombre()}</h1>
   <p>{nuevoAlumno.años()}</p>
   <p>{nuevoAlumno.mayor()}</p>
-
+  <div className="form_button-home">
+                <Link to= '/' ><button class="btn">Volver al Home</button> 
+                </Link>
+            </div>
  </div>
 )
 }
