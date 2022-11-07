@@ -8,6 +8,9 @@
 	position: relative;
 	transition: 0.5s ease;
 }
+.form_button-home{
+	text-align: center;
+}
 
 .btn::before {
 	content: "";
