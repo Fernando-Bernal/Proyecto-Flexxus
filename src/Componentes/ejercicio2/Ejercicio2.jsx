@@ -29,7 +29,7 @@ function ejercicio2() {
 				un método para imprimir el vector.
 			</h5>
 			<div className="div-solucion">
-				<p>Los sueldos ingresadons son:</p>
+				<p>Los sueldos ingresados son:</p>
 				{sueldosA.map((e) => e + "  ")}
 			</div>
 			<div className="form_button-home">
